@@ -16,6 +16,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.item_recipe.view.*
 
 
+
+
 //Make the Recipe Parcelable so that it can be passed by the Bundle to another activity
 @Parcelize
 data class Recipe(val name: String, val imageURL: String, val steps: List<String>): Parcelable
